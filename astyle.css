@@ -1,0 +1,148 @@
+body{
+	margin: 36px auto;
+	width: 90%;
+        margin-left: 5%;
+        margin-right: 15%;
+        background-color: #D2B887;
+
+}
+
+
+#main{
+	float: left;
+	width: 62.8888889%; /* 566px / 900px */
+        background-color: #009E60;
+        margin-left: 18%;
+}
+
+
+
+/* header section */
+header h1 {
+        margin-left: 12%
+        
+}
+
+/*nav secction */
+
+
+ul, li {
+ margin: 0;
+ overflow: hidden;
+ background-color: #009E60;
+ /*border:thin solid;*/
+ margin-left: 5%;
+}
+
+ul li {
+ float: left;
+ list-style: none;
+ border-color: #009E60;
+ margin-left: 5%;
+}
+
+
+li a {
+ color: #C0C0C0;
+ text-decoration: underline;
+ float: left;
+ font-size: 30px;
+ padding: 20px;
+}
+
+
+.title
+{
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+    
+    
+}
+
+
+
+article h1, article h2, article h3, article h4, article p{
+ padding: .2em 8.48056537% .2em 8.48056537%; /* 48px / 566px */
+ text-align: center;
+ font-family: "Times New Roman", Times, serif;
+ font-size: 125%;
+}
+
+    .menu {
+    background-color: #009E60;
+    margin-right:auto;
+    margin-left:auto;
+    width:75%
+    } 
+    .menuheader {
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    font-family: Arial,Helvetica,sans-serif;
+    }
+    .sub {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+        
+    }
+        
+       
+/* aside section */
+aside {
+	margin: auto;
+	width: 69.7885196%; /* 231px / 331px */
+        background-color: #009E60;
+        margin-left: 20%;
+        
+}
+aside h2, aside p{
+ padding: 3em 8.48056537% 3em 8.48056537%; /* 48px / 566px */
+}
+
+/* footer section */
+footer{
+	clear: both;
+	background-color: #D2B887;
+        padding: 0.8em 5.33333333%;  /* 48px / 900px */
+}
+
+/* images section */
+    
+ li.img
+ {
+  margin:15px;
+  border:1px solid #009933;
+  width:180px;
+  height:305px;
+  float:left;
+  text-align:center;
+  list-style-type: none;
+  }
+li .img img
+  {
+  display:inline;
+  margin:4px;
+  border:1px solid #ffffff;
+  }
+li.img a:hover img
+  {
+  border:1px solid #FF0000;
+  }
+div.desc
+  {
+  font-weight:normal;
+  text-align:center;
+  width:auto;
+  margin:2px;
+  }
+
+.first { text-indent: 3em; }
+ 
+ img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
